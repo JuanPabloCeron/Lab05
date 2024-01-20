@@ -31,9 +31,9 @@ def dividir(a, b):
         c =   round(a / b, 2)  
         return c
     except ZeroDivisionError as e:
-        print ("No se puede dividir enter cero")
+        print ("No se puede dividir entre cero")
 
 if __name__ == "__main__":
     print("Dividir: ",8," / ",2," = ",dividir(8, 3))    
 
-#***************************************************    
+#****************************************************    
